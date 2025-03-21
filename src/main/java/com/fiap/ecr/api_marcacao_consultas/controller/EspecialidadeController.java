@@ -13,6 +13,6 @@ public class EspecialidadeController {
     }
     @GetMapping
     public ResponseEntity<List<Especialidade>> listarEspecialidades() {
-        return  ResponseEntity.ok(especialidadeService.listarEspecialidades());
+        return ResponseEntity.ok(especialidadeService.listarEspecialidades());
     }
 }
